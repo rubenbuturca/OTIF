@@ -1,0 +1,14 @@
+.fit{
+	display: block;
+	max-width: 100vw;
+	max-height: 100vh;
+	padding: 0;
+	margin: 0;
+	margin: auto;
+	position:fixed;
+	left:50%;top:50%;
+	transform:translate(-50%,-50%);
+}
+
+
+
