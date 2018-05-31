@@ -1,0 +1,459 @@
+/*
+ * examples/full/css/demo.css
+ * 
+ * This file is part of EditableGrid.
+ * http://editablegrid.net
+ *
+ * Copyright (c) 2011 Webismymind SPRL
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://editablegrid.net/license
+ */
+ a{
+	 white-space: pre;
+ }
+.login {
+
+  position: relative;
+
+  margin: 0 auto;
+
+  padding: 20px 20px 20px;
+
+  width: 310px;
+
+  background: white;
+
+  border-radius: 3px;
+
+  -webkit-box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+
+  box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.login:before {
+
+  content: '';
+
+  position: absolute;
+
+  top: -8px;
+
+  right: -8px;
+
+  bottom: -8px;
+
+  left: -8px;
+
+  z-index: -1;
+
+  background: rgba(0, 0, 0, 0.08);
+
+  border-radius: 4px;
+
+}
+
+.login h1 {
+
+  margin: -20px -20px 21px;
+
+  line-height: 40px;
+
+  font-size: 15px;
+
+  font-weight: bold;
+
+  color: #555;
+
+  text-align: center;
+
+  text-shadow: 0 1px white;
+
+  background: #f3f3f3;
+
+  border-bottom: 1px solid #cfcfcf;
+
+  border-radius: 3px 3px 0 0;
+
+  background-image: -webkit-linear-gradient(top, whiteffd, #eef2f5);
+
+  background-image: -moz-linear-gradient(top, whiteffd, #eef2f5);
+
+  background-image: -o-linear-gradient(top, whiteffd, #eef2f5);
+
+  background-image: linear-gradient(to bottom, whiteffd, #eef2f5);
+
+  -webkit-box-shadow: 0 1px whitesmoke;
+
+  box-shadow: 0 1px whitesmoke;
+
+}
+
+.login p {
+
+  margin: 20px 0 0;
+
+}
+
+.login p:first-child {
+
+  margin-top: 0;
+
+}
+
+.login input[type=text], .login input[type=password] {
+
+  width: 278px;
+
+}
+
+.login p.remember_me {
+
+  float: left;
+
+  line-height: 31px;
+
+}
+
+.login p.error {
+
+  margin: 20px 0;
+
+  font-size: 11px;
+
+  color: red;
+
+  text-align: center;
+
+  text-shadow: 0 1px #2a85a1;
+
+}
+
+.login p.remember_me label {
+
+  font-size: 12px;
+
+  color: #777;
+
+  cursor: pointer;
+
+}
+
+.login p.remember_me input {
+
+  position: relative;
+
+  bottom: 1px;
+
+  margin-right: 4px;
+
+  vertical-align: middle;
+
+}
+
+.login p.submit {
+
+  text-align: right;
+
+}
+
+
+
+.login-help {
+
+  margin: 20px 0;
+
+  font-size: 11px;
+
+  color: white;
+
+  text-align: center;
+
+  text-shadow: 0 1px #2a85a1;
+
+}
+
+.login-help a {
+
+  color: #cce7fa;
+
+  text-decoration: none;
+
+}
+
+.login-help a:hover {
+
+  text-decoration: underline;
+
+}
+ 
+div#greeting_user { 
+    width: 100%;
+    color: #3d685c;
+	text-align: right;
+    -webkit-align-content: right;
+    align-content: right;
+}
+ 
+section.banner>img {
+max-width: 100%;
+height: auto;
+}
+ 
+body {
+	font-family:'lucida grande', tahoma, verdana, arial, sans-serif;
+	font-size:11px;
+}
+
+h1 { 
+	font-size: 15px;
+}
+
+h2 { 
+	font-size: 13px;
+}
+
+a { 
+	color: #548dc4;
+	text-decoration: none;
+}
+
+h1 a {
+	font-size: 12px;
+	float: right;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	border: 0;
+}
+
+.ok { 
+	background-color: #0a8819; 
+	color: white; 
+	padding: 5px;
+}
+
+input.invalid {
+	background: red;
+	color: #FDFDFD;
+}
+
+#message {
+	width: 100%;
+}  
+
+td.number {
+	text-align: right;
+	font-weight: bold;
+	padding-right: 5px;
+	white-space: nowrap;
+}
+
+td.boolean {
+	text-align: center;
+}
+
+th.boolean {
+	text-align: center;
+}
+
+table.archicogrid { 
+	border-collapse: collapse; 
+	border: 1px solid #CCB;
+	width: 100%;
+}
+
+table.archicogrid tr {
+	border-bottom: 1px solid #DDD;
+}
+
+table.archicogrid>tbody tr:hover {
+	background-color: #888888;
+	color: white;
+}
+
+table.archicogrid>tbody tr:hover a {
+	color: white;
+}
+
+table.archicogrid th {
+	background: #E5E5E5;
+	border: 1px solid #D5D5D5;
+	color: #555;
+	text-align: left;
+	padding-left: 5px;
+	padding-right: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	white-space: nowrap; 
+}
+
+table.archicogrid td {
+	padding: 5px;
+	border: 1px solid #E0E0E0;
+}
+table.archicogrid i {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+img.icon {
+  width: 16px;
+  cursor: pointer;
+}
+#paginator .icon {
+  width: 24px;
+  margin: 3px;
+  vertical-align: middle;
+}
+#toolbar .icon {
+  width: 32px;
+  vertical-align: middle;
+}
+#toolbar a {
+  display: inline-block;
+}
+
+#edition {
+	padding-top: 5px;
+	width: 600px;
+	border: 0px;	
+}
+
+#paginator {
+  	margin: 10px 0;
+	font-size: 1.4em;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#paginator a { color:  #0078cc; text-decoration: none;line-height: 40px; padding: 4px 8px;   }           
+#paginator a:hover { color: #000; }
+#paginator a:active, #currentpageindex {  background-color: #0078cc; color: #fff; border-radius: 5px;}
+#paginator span#currentpageindex {  padding: 4px 8px;  }
+#paginator a:focus { outline: 1px; }
+
+#filter { 
+	width: 250px;
+	margin-bottom: 10px; 
+    border: 1px solid #d1d1d1;
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+#wrap {
+	margin: 10px;
+}
+
+#addform {
+  position: fixed;
+  background-color: #f6f6f6;
+  box-shadow: 3px 3px 3px #636363;
+  display: none;
+  width: 400px;
+  height: 120px;
+  border-radius: 20px;
+  padding: 20px;
+  left: 50%;
+  top: 50%;
+  margin-left: -200px;
+  margin-top: -100px;
+  z-index: 1000;
+  border: 1px solid #e1e1e1;
+}
+#addform .row {
+  margin: 10px 0 20px 0;
+}
+#addform input {
+  width: 380px;
+	padding: 5px 9px;
+	border: solid 1px #e1d1e1;
+	outline: 0;
+}
+   
+form input:hover, form textarea:hover, form input:focus, form textarea:focus { 
+	border-color: #a1a1a1; 
+	-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+}
+
+#addform .row.tright {
+  text-align: right;
+}
+.button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 3px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #333333;
+  background-color: #f1f1f1;
+  border-color: #cccccc;
+  transition: background-color 0.5s; }
+
+.button:hover,
+.button:focus,
+.button:active,
+.button:active {
+  color: #333333;
+  background-color: #cac9cb;
+  border-color: #adadad;
+  text-decoration: none; }
+
+.button i.fa {
+  /** usefull only with font-awesome icons */
+  margin-right: 5px; }
+
+/**** Delete button ***/
+.button.delete {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a; }
+
+.button.delete:hover,
+.button.delete:focus,
+.button.delete:active,
+.button.delete.active {
+  color: #ffffff;
+  background-color: #d2322d;
+  border-color: #ac2925; }
+
+/****** Add or green button ****/
+.button.add, .button.green {
+  color: #ffffff;
+  background-color: #6ccb63;
+  border-color: #5db056; }
+
+.button.add:hover,
+.button.add:focus,
+.button.add:active,
+.button.add.active,
+.button.green:hover,
+.button.green:focus,
+.button.green:active,
+.button.green.active {
+  color: #ffffff;
+  background-color: #5aad55;
+  border-color: #5db056; }
+
+
+i.fa.red { color: #d2322d }
+
+
+
+
